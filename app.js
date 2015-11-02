@@ -13,4 +13,4 @@ app.get('/admin/', function (req, res) {
     res.render('admin', {title:'后台首页'});
 });
 app.listen(port)
-console.log("服务启动成功");
+console.log("服务启动成功了");
